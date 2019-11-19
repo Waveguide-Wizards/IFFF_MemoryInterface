@@ -76,6 +76,8 @@ void change_speed(enum SSI);
 long open_file(long next_cluster,enum SSI);
 long get_root_dir_first_cluster(void);
 long get_first_cluster(int pos);
+void read_first_sector(enum SSI SSI_number);
+void read_disk_data(enum SSI SSI_number);
 long list_dirs_and_files(long next_cluster,enum name_type name, enum get_subdirs subdirs, enum SSI SSI_number);
 void tx_SSI(enum SSI);
 void clean_name(void);

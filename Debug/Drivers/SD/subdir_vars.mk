@@ -2,8 +2,6 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-SHELL = cmd.exe
-
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Drivers/SD/sdcard.c 
@@ -15,10 +13,10 @@ OBJS += \
 ./Drivers/SD/sdcard.obj 
 
 OBJS__QUOTED += \
-"Drivers\SD\sdcard.obj" 
+"Drivers/SD/sdcard.obj" 
 
 C_DEPS__QUOTED += \
-"Drivers\SD\sdcard.d" 
+"Drivers/SD/sdcard.d" 
 
 C_SRCS__QUOTED += \
 "../Drivers/SD/sdcard.c" 
